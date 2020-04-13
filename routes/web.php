@@ -31,3 +31,7 @@ Route::get('/home', 'HomeController@index')->middleware('verified');
 
 
 Route::resource('municipios', 'MunicipioController');
+
+
+
+Route::resource('medicos', 'MedicoController');
