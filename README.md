@@ -78,9 +78,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 cambiar los datos segun la configuracion de la bases de datos
+
 Instale los componentes
 
     php composer install
+
+Copy .env.example file to .env
+Generate application key to run: 
+		
+		php artisan key:generate
+
 
    Migracion de las tablas a la bases de datos
   
