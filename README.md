@@ -91,3 +91,5 @@ Inicialize los datos
 
     php artisan db:seed
 
+    php composer dump-autoload
+
