@@ -35,3 +35,5 @@ Route::resource('municipios', 'MunicipioController');
 
 
 Route::resource('medicos', 'MedicoController');
+
+Route::resource('pacientes', 'PacienteController');

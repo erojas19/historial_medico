@@ -11,3 +11,7 @@
     <a href="{{ route('medicos.index') }}"><i class="fa fa-edit"></i><span>Medicos</span></a>
 </li>
 
+<li class="{{ Request::is('pacientes*') ? 'active' : '' }}">
+    <a href="{{ route('pacientes.index') }}"><i class="fa fa-edit"></i><span>Pacientes</span></a>
+</li>
+
