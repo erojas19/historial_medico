@@ -6,7 +6,7 @@
 
 @push('scripts')
     <script type="text/javascript">
-        $('#fecha_registro').datepicker({
+        $('#fecha_registro').datetimepicker({
             format: 'YYYY-MM-DD',
             useCurrent: true,
             sideBySide: true
